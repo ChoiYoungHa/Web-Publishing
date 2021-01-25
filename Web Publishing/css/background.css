@@ -1,0 +1,8 @@
+.img {
+  height: 500px;
+  border: 3px solid green;
+  background-image: url("../imgfile/snow.jpg");
+  background-size: cover;
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}

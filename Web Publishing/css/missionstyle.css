@@ -1,0 +1,13 @@
+.box-one,
+.box-three,
+.box-five {
+  background-color: #fa987d;
+}
+.box-two,
+.box-four {
+  background-color: #72cca7;
+}
+.container h2 {
+  padding: 20px;
+  font-size: 30px;
+}

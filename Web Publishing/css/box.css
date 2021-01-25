@@ -1,0 +1,51 @@
+h1 {
+  border: 5px solid red;
+
+  /* background- 패딩은 시계방향으로 원하는 픽셀을 선택할 수 있다.
+  만약에 위아래 왼쪽오른쪽이 모두 같다면 100px 100px를 해도 적용이 가능하다.*/
+  padding: 100px 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/*만약에 위아래 왼쪽오른쪽이 모두 같다면 100px 25px를 해도 적용이 가능하다.*/
+.p2 {
+  border: 5px solid red;
+  padding: 100px 25px;
+  text-align: center;
+}
+
+/*margin 또한 padding이랑 사용이 같다.*/
+.p3 {
+  border: 5px solid red;
+  padding: 100px 25px;
+  text-align: center;
+  margin: 100px 100px;
+}
+.p4 {
+  border: 5px solid red;
+  text-align: center;
+  padding: 100px 25px;
+  margin: 0 auto;
+}
+.p5 {
+  max-height: 200px;
+  padding: 50px;
+  box-shadow: 20px 20px 10px 10px green;
+}
+
+input {
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+div {
+  margin-top: 100px;
+  border: 10px solid red;
+  width: 300px;
+  height: 200px;
+  padding: 40px;
+}

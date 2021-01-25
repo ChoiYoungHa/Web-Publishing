@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+.menu {
+  text-align: center;
+}
+h1 {
+  font-family: "Big Shoulders Stencil Text", cursive;
+}
+h2 {
+  font-family: "Arimo", sans-serif;
+}
+h3 {
+  font-family: "Do Hyeon", sans-serif;
+}
+
+@font-face {
+  src: url("../font/BMHANNAPro.ttf");
+  font-family: Hanna;
+}
+
+.bm {
+  font-family: Hanna;
+  font-size: 40px;
+}
+
+.dcolor {
+  color: red;
+}
