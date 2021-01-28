@@ -1,0 +1,15 @@
+p {
+  color: red;
+  font-size: 16px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 35px;
+    background-color: gray;
+  }
+  p {
+    color: black;
+    font-size: 25px;
+  }
+}
